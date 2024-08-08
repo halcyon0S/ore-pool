@@ -13,7 +13,7 @@ show_menu() {
     echo "4. 一键领取奖励"
     echo "5. 停止挖矿"
     echo "6. 退出"
-    echo -n "输入选项 [1-6]: "
+    echo -n "输入选项 [0-6]: "
 }
 
 # Function to start mining，default wallet
