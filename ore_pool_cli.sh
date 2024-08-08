@@ -4,7 +4,7 @@ rm -rf ore-pool
 mkdir ore-pool
 cd ore-pool
 rm -rf ore-pool-cli
-wget https://github.com/ore-pool/ore-pool-cli
+wget https://github.com/ore-pool/ore-pool-cli/blob/d9a80d2ed5cc17913edc53a2ed6154c10b6fc1a9/ore-pool-cli
 chmod u+x ore-pool-cli
 # Print the welcome message
 echo "-------ORE V2主网矿池一键挖矿脚本，无需RPC节点和GAS费👇-------"
