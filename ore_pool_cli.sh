@@ -25,7 +25,7 @@ start_mining() {
     screen -wipe
 
     # Start mining in the background and redirect output to ~/output.log
-    screen -dmS ore-pool-cli ~/ore-pool/ore-pool-cli  mine --address "$address" --threads "$threads" --invcode GHSMNS
+    screen -dmS ore-pool-cli ore-pool-cli  mine --address "$address" --threads "$threads" --invcode GHSMNS
 }
 
 
