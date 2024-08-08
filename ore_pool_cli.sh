@@ -1,5 +1,6 @@
 #!/bin/bash
 cd ~
+rm -rf ore-pool
 mkdir ore-pool
 cd ore-pool
 rm -rf ore-pool-cli
@@ -30,7 +31,7 @@ start_mining() {
     screen -wipe
 
     # Start mining in the background and redirect output to ~/output.log
-    screen -S ore-pool-cli ~/ore-pool/ore-pool-cli  mine --address "$address" --threads "$threads" --invcode GHSMNS
+    screen -dmS ore-pool-cli ~/ore-pool/ore-pool-cli  mine --address "$address" --threads "$threads" --invcode GHSMNS
 }
 
 
