@@ -1,6 +1,5 @@
 #!/bin/bash
 chmod u+x ore-pool-cli
-chmod u+x ore_pool_cli.sh
 # Print the welcome message
 echo "-------ORE V2主网矿池一键挖矿脚本，无需RPC节点和GAS费👇-------"
 
